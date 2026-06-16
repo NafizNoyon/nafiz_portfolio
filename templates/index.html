@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD Nafiz Akondo | Researcher & AI Enthusiast</title>
+
+    <meta name="description" content="Portfolio of MD Nafiz Akondo, a research-oriented technology learner with interests in Data Science, Artificial Intelligence, Machine Learning, NLP, Deep Learning, HCI, MIS, and academic research.">
+    <meta name="keywords" content="MD Nafiz Akondo, Researcher, Data Science, Artificial Intelligence, Machine Learning, NLP, Deep Learning, HCI, MIS, Python, Academic Research">
+    <meta name="author" content="MD Nafiz Akondo">
+
+    <!-- Premium Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="hero" id="home">
+
+        <nav class="navbar">
+            <h2 class="logo">MD Nafiz Akondo</h2>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#focus">Focus</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#certifications">Certifications</a>
+                <a href="#experience">Experience</a>
+                <a href="#research">Research</a>
+                <a href="#projects">Projects</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <div class="hero-wrapper">
+
+            <div class="hero-content">
+                <p class="hello">Hello, I am</p>
+
+                <h1>MD Nafiz Akondo</h1>
+
+                <h3>Researcher | Data Science & AI Enthusiast | Aspiring Technology Professional</h3>
+
+                <p class="hero-text">
+                    I am a research-oriented technology learner with strong interest in data science,
+                    artificial intelligence, MIS, HCI, machine learning, NLP, and deep learning.
+                    I enjoy learning how digital systems work, how data can support decision-making,
+                    and how intelligent technologies can solve real-world problems.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#research" class="btn primary">View Research</a>
+                    <a href="#projects" class="btn secondary">View Projects</a>
+                    <a href="#blog" class="btn secondary">Read Blog</a>
+                    <a href="{{ url_for('static', filename='files/nafiz-cv.pdf') }}" class="btn secondary" download>Download CV</a>
+                </div>
+            </div>
+            <div class="hero-social-icons">
+                    <a href="mailto:nafiz.noyon22@gmail.com" title="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                     </a>
+
+                    <a href="https://www.linkedin.com/in/md-nafiz-akondo-a9823429a/" target="_blank" title="LinkedIn">
+                     <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                    <a href="https://github.com/NafizNoyon" target="_blank" title="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                 </a>
+              </div>
+
+            <div class="profile-box">
+                <div class="profile-circle">
+                    <img src="{{ url_for('static', filename='images/nafiz-profile.jpg') }}" alt="MD Nafiz Akondo Profile Photo">
+                </div>
+
+                <p class="profile-title">Researcher • AI Learner • Technology Professional</p>
+
+                <div class="profile-tags">
+                    <span>Python</span>
+                    <span>Data Science</span>
+                    <span>AI</span>
+                    <span>Research</span>
+                </div>
+                <div class="profile-stats">
+                <div>
+                    <h4>B.Sc. CSE</h4>
+                    <p>2022–2026</p>
+                </div>
+
+                <div>
+                    <h4>Research</h4>
+                     <p>Conference Paper</p>
+                </div>
+
+                 <div>
+                    <h4>Focus</h4>
+                    <p>AI & Data</p>
+                </div>
+            </div>
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="section" id="about">
+        <p class="section-label">Who I Am</p>
+        <h2>About Me</h2>
+
+        <p class="section-text">
+            I am currently studying B.Sc. in Computer Science and Engineering with a focus on
+            Artificial Intelligence and Machine Learning. Alongside my technical learning,
+            I have academic research experience and a published conference paper.
+            My goal is to grow as a technology professional who can combine research,
+            data, and intelligent systems to solve practical real-world problems.
+        </p>
+    </section>
+    <section class="section highlights-section">
+    <p class="section-label">Profile Highlights</p>
+    <h2>Quick Highlights</h2>
+
+    <div class="highlights-grid">
+        <div class="highlight-card">
+            <h3>Research-Oriented</h3>
+            <p>Academic research experience with conference publication background.</p>
+        </div>
+
+        <div class="highlight-card">
+            <h3>AI & Data Focus</h3>
+            <p>Strong learning interest in data science, AI, ML, NLP, and deep learning.</p>
+        </div>
+
+        <div class="highlight-card">
+            <h3>Technology Learner</h3>
+            <p>Interested in practical digital systems, decision-making, and problem-solving.</p>
+        </div>
+    </div>
+</section>
+
+    <section class="section dark" id="focus">
+        <p class="section-label light-label">What I Focus On</p>
+        <h2>Main Focus Areas</h2>
+
+        <p class="section-text">
+            My learning and research interests are connected with modern data-driven technology,
+            intelligent systems, and human-centered digital solutions.
+        </p>
+
+        <div class="card-grid">
+            <div class="card">Python</div>
+            <div class="card">Data Science</div>
+            <div class="card">Machine Learning</div>
+            <div class="card">Natural Language Processing</div>
+            <div class="card">Deep Learning</div>
+            <div class="card">Human-Computer Interaction</div>
+            <div class="card">Management Information Systems</div>
+            <div class="card">Research Methodology</div>
+            <div class="card">Academic Writing</div>
+            <div class="card">Data Analysis</div>
+        </div>
+    </section>
+    <section class="section skills-section" id="skills">
+    <p class="section-label">Technical Ability</p>
+    <h2>Skills & Tools</h2>
+
+    <p class="section-text">
+        These are the technical areas, tools, and research-related skills I am learning and practicing
+        to build a strong foundation in technology and data-driven problem-solving.
+    </p>
+
+    <div class="skills-grid">
+        <div class="skill-box">
+            <h3>Programming</h3>
+            <p>Python, R, SQL, Basic JavaScript</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Data & AI</h3>
+            <p>Data Science, Machine Learning, NLP, Deep Learning, Data Analysis</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Web & Tools</h3>
+            <p>HTML, CSS, Flask, VS Code, GitHub</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Research Skills</h3>
+            <p>Academic Writing, Literature Review, Research Presentation, Data Interpretation</p>
+        </div>
+    </div>
+    </section>
+
+    <section class="section" id="education">
+        <p class="section-label">Academic Background</p>
+        <h2>Education</h2>
+
+        <div class="info-card">
+            <h3>B.Sc. in Computer Science and Engineering</h3>
+
+            <p><strong>University:</strong> American International University-Bangladesh</p>
+            <p><strong>Department:</strong> Computer Science and Engineering</p>
+            <p><strong>Focus:</strong> Artificial Intelligence and Machine Learning</p>
+            <p><strong>Year:</strong> 2022 – 2026</p>
+
+            <p class="card-note">
+                My academic focus includes data science, artificial intelligence,
+                machine learning, HCI, MIS, NLP, deep learning, and research-based problem solving.
+            </p>
+        </div>
+    </section>
+    <section class="section certifications-section" id="certifications">
+    <p class="section-label">Learning Proof</p>
+    <h2>Certifications & Learning</h2>
+
+    <p class="section-text">
+        This section will include my completed certifications, online learning achievements,
+        workshops, and technical training related to data science, AI, machine learning,
+        research, and software development.
+    </p>
+
+    <div class="cert-grid">
+        <div class="cert-card">
+            <h3>Data Science Learning</h3>
+            <p>Certificate details will be added later.</p>
+        </div>
+
+        <div class="cert-card">
+            <h3>AI & Machine Learning</h3>
+            <p>Certificate details will be added later.</p>
+        </div>
+
+        <div class="cert-card">
+            <h3>Research & Academic Training</h3>
+            <p>Workshop or training details will be added later.</p>
+        </div>
+    </div>
+    </section>
+
+    <section class="section dark" id="research">
+    <p class="section-label light-label">Academic Work</p>
+    <h2>Research & Publication</h2>
+
+    <p class="section-text">
+        My research interest is connected with data-driven technology, artificial intelligence,
+        human-centered digital systems, and academic problem-solving.
+    </p>
+
+    <div class="research-grid">
+
+        <div class="research-card">
+            <div class="research-badge">Published / Presented</div>
+
+            <h3>Conference Paper</h3>
+
+            <p><strong>Paper Title:</strong> To be added later</p>
+            <p><strong>Conference Name:</strong> To be added later</p>
+            <p><strong>Publication Year:</strong> To be added later</p>
+            <p><strong>Research Area:</strong> To be added later</p>
+
+            <p class="card-note">
+                This research work reflects my academic interest in technology,
+                data analysis, intelligent systems, and practical problem-solving.
+                Full paper details, DOI, and publication link will be added later.
+            </p>
+
+            <button class="small-link modal-btn"
+                data-title="Conference Paper"
+                data-text="This section will include the full title of my conference paper, conference name, publication year, research area, contribution, and paper link or DOI.">
+                View Research Details
+            </button>
+        </div>
+
+    </div>
+</section>
+<section class="section experience-section" id="experience">
+    <p class="section-label">Professional Growth</p>
+    <h2>Experience & Activities</h2>
+
+    <p class="section-text">
+        This section highlights my academic activities, research involvement,
+        technical learning, and professional development journey.
+    </p>
+
+    <div class="experience-grid">
+        <div class="experience-card">
+            <h3>Academic Research Work</h3>
+            <p>
+                Involved in academic research and conference publication-related work,
+                focusing on learning, analysis, writing, and presentation.
+            </p>
+        </div>
+
+        <div class="experience-card">
+            <h3>Technology Learning</h3>
+            <p>
+                Continuously learning Python, data science, AI, machine learning,
+                NLP, deep learning, HCI, and MIS.
+            </p>
+        </div>
+
+        <div class="experience-card">
+            <h3>Portfolio Development</h3>
+            <p>
+                Building this personal portfolio to present my research profile,
+                technical skills, projects, blogs, and professional identity.
+            </p>
+        </div>
+    </div>
+</section>
+
+    <section class="section" id="projects">
+        <p class="section-label">Practical Work</p>
+        <h2>Projects</h2>
+
+        <p class="section-text">
+            This section will showcase my practical learning, technical projects,
+            research-based work, and data-driven problem-solving activities.
+        </p>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+                <h3>Python Data Analysis Project</h3>
+                <p>
+                    A data-focused project where I explore, clean, analyze,
+                    and interpret datasets using Python and data analysis tools.
+                </p>
+
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>Pandas</span>
+                    <span>Data Analysis</span>
+                </div>
+
+                <button class="small-link modal-btn"
+                    data-title="Python Data Analysis Project"
+                    data-text="This project will describe how I use Python, Pandas, and data analysis techniques to clean, explore, and interpret datasets. Project details and GitHub link will be added later.">
+                    View Details
+                </button>
+            </div>
+
+            <div class="project-card">
+                <h3>AI & Machine Learning Practice</h3>
+                <p>
+                    Learning-based machine learning projects focused on model building,
+                    prediction, evaluation, and understanding intelligent systems.
+                </p>
+
+                <div class="project-tags">
+                    <span>Machine Learning</span>
+                    <span>AI</span>
+                    <span>Modeling</span>
+                </div>
+
+                <button class="small-link modal-btn"
+                    data-title="AI & Machine Learning Practice"
+                    data-text="This section will include machine learning practice projects, model training, evaluation, prediction tasks, and AI learning notes. More project details will be added later.">
+                    View Details
+                </button>
+            </div>
+
+            <div class="project-card">
+                <h3>Research-Based Technical Work</h3>
+                <p>
+                    Academic and research-oriented work connected with technology,
+                    data, intelligent systems, and problem-solving.
+                </p>
+
+                <div class="project-tags">
+                    <span>Research</span>
+                    <span>Academic Writing</span>
+                    <span>Analysis</span>
+                </div>
+
+                <button class="small-link modal-btn"
+                    data-title="Research-Based Technical Work"
+                    data-text="This section will present my research-related technical work, academic writing experience, data interpretation, and publication-based learning. Details will be added later.">
+                    View Details
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section dark" id="blog">
+        <p class="section-label light-label">Writing & Learning</p>
+        <h2>Technical Blog</h2>
+
+        <p class="section-text">
+            I plan to write blogs about Python, data science, artificial intelligence,
+            machine learning, research learning, and my journey as a technology learner.
+        </p>
+
+        <div class="blog-grid">
+
+            <div class="blog-card">
+                <h3>How I Started My Research Journey</h3>
+                <p>
+                    A personal learning note about how research helped me think
+                    more deeply about technology and problem-solving.
+                </p>
+
+                <button class="small-link modal-btn"
+                    data-title="How I Started My Research Journey"
+                    data-text="This blog will explain my early research journey, what I learned from academic work, and how research helped me think more clearly about technology and real-world problems.">
+                    Read More
+                </button>
+            </div>
+
+            <div class="blog-card">
+                <h3>Why Data Science Matters in Decision-Making</h3>
+                <p>
+                    A simple explanation of how data can help people and organizations
+                    make better decisions.
+                </p>
+
+                <button class="small-link modal-btn"
+                    data-title="Why Data Science Matters in Decision-Making"
+                    data-text="This blog will discuss how data supports better decision-making, why data analysis is important, and how organizations can use data to solve problems.">
+                    Read More
+                </button>
+            </div>
+
+            <div class="blog-card">
+                <h3>My Learning Notes on AI and Machine Learning</h3>
+                <p>
+                    Beginner-friendly notes from my learning journey in AI,
+                    machine learning, and intelligent technologies.
+                </p>
+
+                <button class="small-link modal-btn"
+                    data-title="My Learning Notes on AI and Machine Learning"
+                    data-text="This blog will include beginner-friendly learning notes on artificial intelligence, machine learning concepts, model building, and intelligent technology systems.">
+                    Read More
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section contact" id="contact">
+        <p class="section-label">Get In Touch</p>
+        <h2>Contact</h2>
+
+        <p class="section-text">
+            I am open to research collaboration, academic networking,
+            technology learning opportunities, and professional communication.
+        </p>
+
+        <div class="social-icons">
+            <a href="mailto:nafiz.noyon22@gmail.com" class="social-icon" title="Email">
+                 <i class="fa-solid fa-envelope"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/md-nafiz-akondo-a9823429a/" target="_blank" class="social-icon" title="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a href="https://github.com/NafizNoyon" target="_blank" class="social-icon" title="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+
+        <p class="contact-note">
+            Email, LinkedIn, GitHub, and CV download options are available on this portfolio.
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 MD Nafiz Akondo. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Popup Modal -->
+    <div class="modal" id="infoModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+
+            <h2 id="modalTitle">Title Here</h2>
+            <p id="modalText">
+                Details will appear here.
+            </p>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
